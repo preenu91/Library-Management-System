@@ -164,7 +164,7 @@ int main()
 
             break;
         case 3: //  search for a book in the library using isbn
-            std::cout << "Enter ISBN:";
+            std::cout << "Enter ISBN: ";
             std::getline(std::cin, isbn);
             found = false;
             for (int i = 0; i < numBooks; i++)
